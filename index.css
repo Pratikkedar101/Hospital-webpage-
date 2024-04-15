@@ -1,0 +1,372 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+#nav{
+	background-color: #34626c; /*#c6fced;  /*#aee6e6;*/
+	color: #fff;
+}
+.navbar-brand{
+	 color: #cfd3ce;
+   font-size: 1.7rem;
+   font-weight:bold;
+
+}
+.navbar-brand:hover{
+	color: #fff;
+}
+.nav-link{
+	color: #cfd3ce;
+}
+.nav-link:hover{
+	color: #fff;
+}
+
+#hero .middle-container .hero-image{
+	color: rgba(0, 0, 0, 0.6);
+}
+.middle-container{
+	padding-top: 3rem;
+	text-align: center;
+	position: relative;
+}
+#hero{
+	align-items: center;
+	margin-top:0;
+	width: 100%;
+	height: 100vh;
+	background: url("https://mk0ehealtheletsj3t14.kinstacdn.com/wp-content/uploads/2009/07/best-hospital-in-south-india.jpg") center center;
+	background-size: cover;
+	position: relative;
+}
+#hero .middle-container{
+	padding-top: 150px;
+}
+
+#hero:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+  #hero h1{
+  	margin:0 0 10px 0;
+  	color: #fff;
+  	font-size: 50px;
+  	font-weight: bold;
+  	line-height: 55px;
+}
+#hero p{
+	color: #eee;
+	margin: 20px 0 50px 0;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+}
+
+#service p{
+	text-align: center;
+	padding-bottom: 3rem;
+	padding-top: 1.5rem;
+}
+.service{
+	text-align: center;
+	padding: 50px 10px 10px 10px;
+	background-color: #aee6e6;
+}
+.service .icon{
+	margin: 0 auto;
+	height: 80px;
+	width: 80px;
+	align-items: center;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	background-color: #ffff;
+	color: #aee6e6;
+	border-radius: 50px;
+}
+.service .icon:hover{
+	color:#ff4c68;
+}
+
+.service h4{
+	margin: 20px 0 10px 0;
+	font-weight: bold;
+	font-size: 22px;
+}
+.service p{
+	line-height: 24px;
+	font-size: 14px;
+	font-weight: lighter;
+	margin-bottom: 0;
+}
+
+/*about section*/
+
+.about{
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+.about-section{
+	position: relative;
+}
+.about-img{
+	margin-left: 15%;
+	margin-bottom: 3%;
+}
+.about-text{
+	text-align: center;
+	padding: 5% 5% 5% 5%;
+	background: rgba(17, 219, 207,0.8);
+	width: 77%;
+	margin-left: 1px;
+}
+.about-heading{
+	margin-bottom: 4%;
+	text-transform: uppercase;
+}
+.about p{
+	margin-bottom: 3%;
+}
+.about-button{
+	margin-left: auto;
+	margin-right: auto;
+}
+.about-heading-upper{
+	font-size: 1rem;
+	display: block;
+	font-weight: bold;
+}
+.about-heading-lower{
+	font-size: 38px;
+	display: inline-block;
+	margin-top: 2%;
+}
+.about-button .btn-color{
+	background: #03506f;
+	color: #fff;
+	font-weight: bold;
+}
+.btn-color:hover{
+	color: #4e8d7c;
+}
+@media screen and (min-width: 992px){
+     .about-section .about-img{
+     	width: 75%;
+     	float: right;
+     }
+     .about-section .about-text{
+     	left: 0;
+     	width: 50%;
+     	position: absolute;
+     	margin-top: 4rem;
+     }
+.about-section .about-text .about-button{
+	width: 100%;
+	position: absolute;
+	left: 0;
+	bottom: -1.5rem;
+    }
+}
+
+
+/*camp*/
+.camp{
+	background-color: #aee6e6;
+	padding-bottom: 0;
+}
+.camp h2{
+	color: #000;
+	margin-bottom: 25px;
+}
+.camp-grid{
+	margin-top: 65px;
+}
+.camp-grid .row{
+	margin: 0;
+}
+.camp-grid .row > div {
+	padding: 0;
+}
+.camp-grid .row > div .card img{
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	background-size: cover;
+}
+
+.camp-grid .row > div .card .camp-text{
+	position: absolute;
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	bottom: 0;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.3s ease;
+	background-color: rgba(0, 0, 0, 0.8);
+} 
+
+.camp-grid .row > div .card .camp-text > div{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.camp-grid .row > div .card .camp-text .card-title{
+	color: #fff;
+	font-size: 30px;
+}
+.camp-grid .row > div .card .camp-text .card-text{
+	color: #fff;
+	opacity: .75;
+	padding: 0 45px;
+}
+.camp-grid .row > div .card:hover .camp-text{
+	opacity: 1;
+	visibility: visible;
+}
+
+
+/*doctor's team*/
+
+.team{
+	background-color: #fff;
+	margin-top: 5%;
+}
+.team .member{
+	position: relative;
+	box-shadow: 1px 2px 15px #aee6e6;
+	padding: 30px;
+	border-radius: 10px;
+	text-align: center;
+}
+.team .member .image{
+	overflow: hidden;
+	width: 150px;
+	margin-left: 70px;
+	border-radius: 50%;
+
+}
+.team .member .image img{
+	transition: ease-in-out 0.3s;
+}
+.team .member:hover img{
+	transform: scale(1.1);
+}
+.team .member h4{
+	font-weight: bold;
+	margin-bottom: 5px;
+	font-size: 20px;
+}
+.team .member span{
+	display: block;
+	position: relative;
+	font-weight: bold;
+	padding-bottom: 10px;
+	font-size: 15px;
+}
+.team .member span:after{
+	content: "";
+	display: block;
+	position: absolute;
+	background: #b5b3ba;
+	width: 100px;
+	height: 1px;
+	margin-top: 5px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.team .member p{
+	margin: 10px 0 0 0;
+	font-size: 14px;
+	padding-bottom: 5px;
+	color: #555555;
+}
+.team .member .social{
+	margin-top: 10px;
+	display: flex;
+	align-items: center;
+    justify-content: center;
+
+}
+.team .member .social a{
+	transition: ease-in-out 0.3s;
+	border-radius: 50%;
+	width: 28px;
+	height: 28px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	background-color: #11dbcf;
+	margin: 5px;
+	
+}
+
+
+/*contact section*/
+.contact .heading{
+	text-align: center;
+	padding-bottom: 15px;
+}
+.contact .heading h4{
+	font-size: 30px;
+}
+
+.contact .row .contact-box{
+	padding: 20px 0 30px 0;
+	background-color: #aee6e6;
+	text-align: center;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.contact .row .contact-box h3{
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 28px;
+}
+.contact-box p{
+	line-height: 24px;
+	font-size: 14px;
+}
+.contact button{
+      color: #fff;
+      background-color: #3399FF;
+      border-radius: 5%;
+      border: none;
+      padding: 10px;
+}
+.contact button:hover{
+	background-color: #032025;
+}
+
+/*footer*/
+.footer{
+	margin-top: 10%;
+	font-size: 15px;
+	background-color: #aee6e6;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	text-align: center;
+	position: relative;
+
+}
+.footer .btn-back{
+	background-color: #fff;
+	color: #00d9ff;
+}
+
+
+
+
+
